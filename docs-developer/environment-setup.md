@@ -1,6 +1,9 @@
 ---
+slug: /developer/environment-setup
+title: "Development Environment Setup"
 sidebar_label: "Environment Setup"
 sidebar_position: 2
+description: "Set up your local development environment for Platform-M"
 ---
 
 # Development Environment Setup

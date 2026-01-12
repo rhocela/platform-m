@@ -1,6 +1,9 @@
 ---
+slug: /user-guide/features
+title: "Features"
 sidebar_label: "Features"
 sidebar_position: 4
+description: "Explore the key features and capabilities of Platform-M"
 ---
 
 # Features

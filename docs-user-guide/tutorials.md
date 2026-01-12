@@ -1,6 +1,9 @@
 ---
+slug: /user-guide/tutorials
+title: "Tutorials"
 sidebar_label: "Tutorials"
 sidebar_position: 3
+description: "Step-by-step tutorials to help you accomplish common tasks with Platform-M"
 ---
 
 # Tutorials

@@ -1,6 +1,9 @@
 ---
+slug: /developer/testing
+title: "Testing Guide"
 sidebar_label: "Testing"
 sidebar_position: 5
+description: "Learn how to run and write tests for Platform-M"
 ---
 
 # Testing Guide

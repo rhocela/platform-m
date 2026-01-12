@@ -1,6 +1,9 @@
 ---
+slug: /user-guide/faq
+title: "Frequently Asked Questions"
 sidebar_label: "FAQ"
 sidebar_position: 6
+description: "Find answers to common questions about Platform-M"
 ---
 
 # Frequently Asked Questions

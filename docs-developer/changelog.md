@@ -1,6 +1,9 @@
 ---
+slug: /developer/changelog
+title: "Changelog"
 sidebar_label: "Changelog"
 sidebar_position: 6
+description: "All notable changes to Platform-M will be documented in this file"
 ---
 
 # Changelog

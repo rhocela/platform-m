@@ -99,7 +99,7 @@ This opens the documentation site at `http://localhost:3000` with live reload en
 2. **Add frontmatter** at the top of the file:
    ```markdown
    ---
-   slug: your-page-slug
+   slug: /your-page-slug
    title: "Your page title"
    sidebar_position: 3
    description: "Brief description for SEO"
@@ -116,14 +116,14 @@ This opens the documentation site at `http://localhost:3000` with live reload en
 
 #### Link to other pages
 
-For each page, use the slug: `/title-of-the-page`
+For each page, use the slug defined in the frontmatter.
 
 To link to this page, use any of the following formats depending on the section:
  
 ```markdown
-[Link text](/user-guide/title-of-the-page)
-[Link text](/developer/title-of-the-page)
-[Link text](/system-admin/title-of-the-page)
+[Link text](/user-guide/getting-started)
+[Link text](/developer/environment-setup)
+[Link text](/system-admin/deploy-platform-m)
 ```
 
 ### Work with images and assets

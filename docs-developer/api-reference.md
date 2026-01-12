@@ -1,6 +1,9 @@
 ---
+slug: /developer/api-reference
+title: "API Reference"
 sidebar_label: "API Reference"
 sidebar_position: 3
+description: "Complete reference for the Platform-M API"
 ---
 
 # API Reference

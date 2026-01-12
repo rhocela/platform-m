@@ -1,6 +1,9 @@
 ---
+slug: /developer/contributing
+title: "Contributing Guide"
 sidebar_label: "Contributing"
 sidebar_position: 4
+description: "Thank you for considering contributing to Platform-M! This guide will help you get started"
 ---
 
 # Contributing Guide

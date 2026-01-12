@@ -1,6 +1,9 @@
 ---
+slug: /user-guide/best-practices
+title: "Best Practices"
 sidebar_label: "Best Practices"
 sidebar_position: 5
+description: "Learn how to get the most out of Platform-M with these tips and recommendations"
 ---
 
 # Best Practices

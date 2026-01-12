@@ -1,6 +1,9 @@
 ---
+slug: /user-guide/getting-started
+title: "Getting Started"
 sidebar_label: "Getting Started"
 sidebar_position: 2
+description: "Get up and running with Platform-M in just a few minutes"
 ---
 
 # Getting Started
