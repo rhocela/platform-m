@@ -1,4 +1,4 @@
-# Platform-M - Color Theme Reference
+# Pseudonymisation Portal - Color Theme Reference
 
 ## Main Colors
 

@@ -3,12 +3,12 @@ slug: /developer/environment-setup
 title: "Development Environment Setup"
 sidebar_label: "Environment Setup"
 sidebar_position: 2
-description: "Set up your local development environment for Platform-M"
+description: "Set up your local development environment for Pseudonymisation Portal"
 ---
 
 # Development Environment Setup
 
-Set up your local development environment for Platform-M.
+Set up your local development environment for Pseudonymisation Portal.
 
 :::tip Template Section
 Provide specific instructions for setting up your development environment. Include:

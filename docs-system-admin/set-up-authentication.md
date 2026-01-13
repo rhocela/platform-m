@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # Set up authentication
 
-Platform-M uses an external **OpenID Connect (OIDC)** provider to manage user authentication and permissions. Common OIDC providers include Keycloak, Auth0, and Azure Active Directory. 
+Pseudonymisation Portal uses an external **OpenID Connect (OIDC)** provider to manage user authentication and permissions. Common OIDC providers include Keycloak, Auth0, and Azure Active Directory. 
 
 In this guide  
 > [Prerequisite](#prerequisite)  
@@ -27,7 +27,7 @@ Before you deploy the application, configure your OIDC provider with the require
 
 ## Set up environment variables
 
-To connect Platform-M to your OIDC provider, configure the following variables in your [`.env` file](deploy-platform-m.md#configure-your-environment):
+To connect Pseudonymisation Portal to your OIDC provider, configure the following variables in your [`.env` file](deploy-platform-m.md#configure-your-environment):
 
 ```bash
 OPENID_CLIENT_ID=<your-client-id>

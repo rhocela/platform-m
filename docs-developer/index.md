@@ -9,9 +9,9 @@ import styles from '@site/src/pages/index.module.css';
 
 # Welcome to the Developer Guide
 
-Welcome to the Platform-M Developer Guide!
+Welcome to the Pseudonymisation Portal Developer Guide!
 
-Build integrations and extend the functionality of Platform-M to meet your organization's needs. This guide covers development environment setup, API integration, and contribution workflows.
+Build integrations and extend the functionality of Pseudonymisation Portal to meet your organization's needs. This guide covers development environment setup, API integration, and contribution workflows.
 
 :::tip Template Section
 Replace this content with information about your technology stack and development approach:

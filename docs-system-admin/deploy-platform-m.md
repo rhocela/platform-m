@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# Deploy Platform-M
+# Deploy Pseudonymisation Portal
 
-Deploy your own instance of the Platform-M application to give your organisation complete control over the application.
+Deploy your own instance of the Pseudonymisation Portal application to give your organisation complete control over the application.
 
 In this guide  
 > [Prerequisites](#prerequisites)  
@@ -13,7 +13,7 @@ In this guide
 
 ## Prerequisites
 
-The Platform-M application integrates with your organisations existing tools and infrastructure as described in the [architecture overview](architecture-overview.md). Before you begin deployment, prepare your environment:
+The Pseudonymisation Portal application integrates with your organisations existing tools and infrastructure as described in the [architecture overview](architecture-overview.md). Before you begin deployment, prepare your environment:
 
 - Provision a **virtual machine (VM)** or cloud instance to host the application.
 - Install **Docker** to build, run, and manage application containers.
@@ -29,7 +29,7 @@ The Platform-M application integrates with your organisations existing tools and
 
 ## Deploy the application
 
-After you complete the configuration for the application, you can deploy Platform-M:
+After you complete the configuration for the application, you can deploy Pseudonymisation Portal:
 
 1. Get the latest release:
    ```sh
@@ -42,7 +42,7 @@ After you complete the configuration for the application, you can deploy Platfor
    ```
    For example: 
    ```sh
-   docker build -t platform-m .
+   docker build -t pseudonymisation-portal .
    ``` 
 
 3. Initialize the database:
@@ -54,6 +54,6 @@ After you complete the configuration for the application, you can deploy Platfor
    docker run -d --env-file .env -p 8000:8000 <your-app-name>
    ```
 
-    To open your Platform-M application, open your browser and go to `http://localhost:8000`.
+    To open your Pseudonymisation Portal application, open your browser and go to `http://localhost:8000`.
 
 

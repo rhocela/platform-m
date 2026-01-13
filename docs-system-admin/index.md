@@ -9,9 +9,9 @@ import styles from '@site/src/pages/index.module.css';
 
 # Welcome to the System Admin Guide
 
-Welcome to the Platform-M System Admin Guide!
+Welcome to the Pseudonymisation Portal System Admin Guide!
 
-Deploy, configure, and maintain the Platform-M application in your organisation. This guide provides comprehensive instructions for setting up your own instance of Platform-M, giving you full control over deployment, configuration, and data management.
+Deploy, configure, and maintain the Pseudonymisation Portal application in your organisation. This guide provides comprehensive instructions for setting up your own instance of Pseudonymisation Portal, giving you full control over deployment, configuration, and data management.
 
 This guide covers everything you need to deploy and manage the application in your environment.
 

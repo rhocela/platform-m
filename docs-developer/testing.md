@@ -3,12 +3,12 @@ slug: /developer/testing
 title: "Testing Guide"
 sidebar_label: "Testing"
 sidebar_position: 5
-description: "Learn how to run and write tests for Platform-M"
+description: "Learn how to run and write tests for Pseudonymisation Portal"
 ---
 
 # Testing Guide
 
-Learn how to run and write tests for Platform-M.
+Learn how to run and write tests for Pseudonymisation Portal.
 
 :::tip Template Section
 Document your testing strategy and provide examples:

@@ -3,12 +3,12 @@ slug: /developer/contributing
 title: "Contributing Guide"
 sidebar_label: "Contributing"
 sidebar_position: 4
-description: "Thank you for considering contributing to Platform-M! This guide will help you get started"
+description: "Thank you for considering contributing to Pseudonymisation Portal! This guide will help you get started"
 ---
 
-# Contributing Guide
+# Contributing
 
-Thank you for considering contributing to Platform-M! This guide will help you get started.
+Thank you for considering contributing to Pseudonymisation Portal! This guide will help you get started.
 
 :::tip Template Section
 Customize these guidelines for your project:

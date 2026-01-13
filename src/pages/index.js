@@ -7,13 +7,13 @@ import styles from './index.module.css';
 export default function Home() {
   return (
     <Layout
-      title="Welcome to Platform-M"
-      description="Documentation for the Platform-M platform"
+      title="Welcome to the Pseudonymisation Portal"
+      description="Documentation for the Pseudonymisation Portal platform"
     >
       <header className={styles.heroBanner}>
         <div className="container">
-          <h1 className="hero__title">Welcome to Platform-M</h1>
-          <p className="hero__subtitle">Your tool for managing and sharing datasets</p>
+          <h1 className="hero__title">Welcome to the Pseudonymisation Portal</h1>
+          <p className="hero__subtitle">Your tool for ...</p>
           <div>
             <Link className="button button--primary button--lg" to="/user-guide/">
               Get started
@@ -46,7 +46,7 @@ export default function Home() {
                         I'm a system admin
                       </Link>
                     </h3>
-                    <p className={styles.homeSubtext}>I want to deploy Platform-M in my organisation's environment.</p>
+                    <p className={styles.homeSubtext}>I want to deploy Pseudonymisation Portal in my organisation's environment.</p>
 
 
                 </div>
@@ -60,7 +60,7 @@ export default function Home() {
                         I'm a developer
                       </Link>
                     </h3>
-                    <p className={styles.homeSubtext}>I want to develop or customise features for the Platform-M application.</p>
+                    <p className={styles.homeSubtext}>I want to develop or customise features for the Pseudonymisation Portal application.</p>
                 </div>
                 </div>
 

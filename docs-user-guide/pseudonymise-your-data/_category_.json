@@ -1,0 +1,8 @@
+{
+  "label": "Pseudonymise your data",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "description": "Request approval, generate tokens, and pseudonymise your data."
+  }
+}

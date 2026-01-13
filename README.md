@@ -19,7 +19,7 @@ This documentation covers key concepts and guides for different audiences:
 - **Key concepts**: Understand datasets, metadata, roles, and workflows
 - **User guides**: Learn how to manage datasets, organisations, and vocabularies
 - **Developer guides**: Set up development environments and contribute code
-- **System admin guides**: Configure and maintain your Platform-M instance
+- **System admin guides**: Configure and maintain your Pseudonymisation Portal instance
 
 ## Documentation structure
 
@@ -29,7 +29,7 @@ The documentation is organized into several key sections:
 docs/
 ├── intro.md                    # Welcome page and overview
 ├── key-concepts/              # Fundamental concepts users need to understand
-│   ├── what-is-platform-m.md
+│   ├── what-is-pseudonymisation-portal.md
 │   ├── datasets-and-metadata.md
 │   ├── roles-and-permissions.md
 │   └── the-dataset-workflow.md
@@ -63,7 +63,7 @@ Each section contains a `_category_.json` file that defines the section's title,
 1. **Clone the repository**:
    ```bash
    git clone <repository-url>
-   cd platform-m
+   cd pseudonymisation-portal
    ```
 
 2. **Navigate to the documentation directory**:
@@ -213,7 +213,7 @@ To see more of Docusaurus formatting and features, refer to the [Docusaurus docu
 - **Links to related concepts**
 
 #### Conceptual content
-- **Clear explanations** of complex topics. Example: What is Platform-M?
+- **Clear explanations** of complex topics. Example: What is Pseudonymisation Portal?
 - **Real-world examples**
 - **Diagrams or visuals** to illustrate concepts
 - **Links to practical applications**

@@ -3,12 +3,12 @@ slug: /developer/changelog
 title: "Changelog"
 sidebar_label: "Changelog"
 sidebar_position: 6
-description: "All notable changes to Platform-M will be documented in this file"
+description: "All notable changes to Pseudonymisation Portal will be documented in this file"
 ---
 
 # Changelog
 
-All notable changes to Platform-M will be documented in this file.
+All notable changes to Pseudonymisation Portal will be documented in this file.
 
 :::tip Template Section
 Keep a changelog to document all notable changes. Follow [Keep a Changelog](https://keepachangelog.com/) format:

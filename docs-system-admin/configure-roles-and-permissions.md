@@ -6,7 +6,7 @@ import FeatureFlag from '@site/src/components/FeatureFlag';
 
 # Configure roles and permissions
 
-Platform-M uses a role-based access control system to manage user permissions and access to different features within the application. Your organisation defines roles and their associated permissions through the application configuration file.
+Pseudonymisation Portal uses a role-based access control system to manage user permissions and access to different features within the application. Your organisation defines roles and their associated permissions through the application configuration file.
 
 In this guide
 
@@ -16,10 +16,10 @@ In this guide
 
 ## Understand the role configuration
 
-When deploying Platform-M, you will work with two types of roles:
+When deploying Pseudonymisation Portal, you will work with two types of roles:
 
 - **Identity management roles**: Roles managed by your external OpenID Connect **(OIDC)** provider and Access Management **(IAM)** system. These roles are included in JWT tokens during [authentication](set-up-authentication.md).
-- **Organisational roles**: Roles defined within the Platform-M application configuration that determine what actions users can perform within datasets. To understand the default roles pre-defined in the application, see [user roles and permissions](/user-guide/roles-and-permissions).
+- **Organisational roles**: Roles defined within the Pseudonymisation Portal application configuration that determine what actions users can perform within datasets. To understand the default roles pre-defined in the application, see [user roles and permissions](/user-guide/roles-and-permissions).
 
 ## Map roles and permissions
 
@@ -85,7 +85,7 @@ Configure your organisational roles in your `config.json` file to match your org
 
 ## Available permissions
 
-The following tables list all available permissions in Platform-M. Refer to this section when assigning permissions to your organisational roles.
+The following tables list all available permissions in Pseudonymisation Portal. Refer to this section when assigning permissions to your organisational roles.
 
 ### Dataset permissions
 

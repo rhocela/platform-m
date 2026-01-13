@@ -3,12 +3,12 @@ slug: /developer/api-reference
 title: "API Reference"
 sidebar_label: "API Reference"
 sidebar_position: 3
-description: "Complete reference for the Platform-M API"
+description: "Complete reference for the Pseudonymisation Portal API"
 ---
 
 # API Reference
 
-Complete reference for the Platform-M API.
+Complete reference for the Pseudonymisation Portal API.
 
 :::tip Template Section
 Document your API endpoints, request/response formats, and authentication. Include:
@@ -305,15 +305,15 @@ Configure webhooks to receive real-time notifications about events.
 
 Official SDKs are available for:
 
-- **JavaScript/TypeScript:** `npm install Platform-M-sdk`
-- **Python:** `pip install Platform-M-sdk`
+- **JavaScript/TypeScript:** `npm install pseudonymisation-portal-sdk`
+- **Python:** `pip install pseudonymisation-portal-sdk`
 - **Java:** [Maven/Gradle instructions]
-- **Go:** `go get github.com/your-org/Platform-M-go`
+- **Go:** `go get github.com/your-org/pseudonymisation-portal-go`
 
 ### SDK Example (JavaScript)
 
 ```javascript
-import { PlatformMClient } from 'platform-m-sdk';
+import { PseudonymisationPortalClient } from 'pseudonymisation-portal-sdk';
 
 const client = new PlatformMClient({
   apiKey: process.env.PLATFORM_M_API_KEY

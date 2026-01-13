@@ -11,7 +11,7 @@ TEMP_LOG="temp_changelog.md"
 for CHANGELOG_FILE in "${CHANGELOG_FILES[@]}"; do
   if [ ! -f "$CHANGELOG_FILE" ]; then
     mkdir -p "$(dirname "$CHANGELOG_FILE")"
-    echo -e "# Changelog\n\nThis page documents all notable changes to the Platform-M application.\n\nUse this changelog to track new features, improvements, and bug fixes across different versions of the application. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n" > "$CHANGELOG_FILE"
+    echo -e "# Changelog\n\nThis page documents all notable changes to the Pseudonymisation Portal application.\n\nUse this changelog to track new features, improvements, and bug fixes across different versions of the application. The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).\n" > "$CHANGELOG_FILE"
   fi
 done
 

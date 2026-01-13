@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Configure the application
 
-After you deploy the Platform-M application, configure it to work in your environment. The application uses a configuration file to manage key settings such as feature flags, database connections, and authentication.
+After you deploy the Pseudonymisation Portal application, configure it to work in your environment. The application uses a configuration file to manage key settings such as feature flags, database connections, and authentication.
 
 
 Configure the application settings to work in your environment by editing and mounting the configuration file.

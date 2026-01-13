@@ -10,7 +10,7 @@ const config: Config = {
   // Replace these values with your project's information
   // ============================================================================
   
-  title: "Platform-M Documentation",                       // REPLACE: Your project name
+  title: "Pseudonymisation Portal Documentation",                       // REPLACE: Your project name
   tagline: "Complete documentation for your project",        // REPLACE: Brief description of your project
   favicon: "img/favicon.svg",                                // Path to your favicon (update the file in static/img/)
 
@@ -182,38 +182,38 @@ const config: Config = {
     // Top navigation bar configuration
     // --------------------------------------------------------------------------
     navbar: {
-      title: "Platform-M",  // REPLACE: Title next to logo
+      title: "Pseudonymisation Portal",  // REPLACE: Title next to logo
       logo: {
-        alt: "Platform-M Logo",           // REPLACE: Alt text for logo
+        alt: "Pseudonymisation Portal Logo",           // REPLACE: Alt text for logo
         src: "img/logo.svg",                // Path to logo (update file in static/img/)
       },
       items: [
-        // Link to User Guide
-        {
-          type: "docSidebar",
-          sidebarId: "userGuideSidebar",        // Must match sidebar ID in sidebars-user-guide.ts
-          docsPluginId: "user-guide",           // Must match doc plugin id above
-          position: "right",
-          label: "Users",                        // CUSTOMIZE: Display text
-        },
+        // Link to User Guide (TEMPORARILY HIDDEN - uncomment to show)
+        // {
+        //   type: "docSidebar",
+        //   sidebarId: "userGuideSidebar",        // Must match sidebar ID in sidebars-user-guide.ts
+        //   docsPluginId: "user-guide",           // Must match doc plugin id above
+        //   position: "right",
+        //   label: "Users",                        // CUSTOMIZE: Display text
+        // },
         
-        // Link to System Admin Guide (remove if not needed)
-        {
-          type: "docSidebar",
-          sidebarId: "systemAdminSidebar",      // Must match sidebar ID in sidebars-system-admin.ts
-          docsPluginId: "system-admin",         // Must match doc plugin id above
-          position: "right",
-          label: "System Admins",                // CUSTOMIZE: Display text
-        },
+        // Link to System Admin Guide (TEMPORARILY HIDDEN - uncomment to show)
+        // {
+        //   type: "docSidebar",
+        //   sidebarId: "systemAdminSidebar",      // Must match sidebar ID in sidebars-system-admin.ts
+        //   docsPluginId: "system-admin",         // Must match doc plugin id above
+        //   position: "right",
+        //   label: "System Admins",                // CUSTOMIZE: Display text
+        // },
         
-        // Link to Developer Guide (remove if not needed)
-        {
-          type: "docSidebar",
-          sidebarId: "developerSidebar",        // Must match sidebar ID in sidebars-developer.ts
-          docsPluginId: "developer",            // Must match doc plugin id above
-          position: "right",
-          label: "Developers",                   // CUSTOMIZE: Display text
-        },
+        // Link to Developer Guide (TEMPORARILY HIDDEN - uncomment to show)
+        // {
+        //   type: "docSidebar",
+        //   sidebarId: "developerSidebar",        // Must match sidebar ID in sidebars-developer.ts
+        //   docsPluginId: "developer",            // Must match doc plugin id above
+        //   position: "right",
+        //   label: "Developers",                   // CUSTOMIZE: Display text
+        // },
         
         // Search box (DO NOT REMOVE - custom search component)
         {

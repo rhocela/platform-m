@@ -4,7 +4,7 @@ sidebar_position: 6
 
 # Configure email notifications
 
-Platform-M sends automated email notifications to users during key events in the dataset lifecycle. Configure your SMTP server and customise email templates to enable effective communication within your organisation.
+Pseudonymisation Portal sends automated email notifications to users during key events in the dataset lifecycle. Configure your SMTP server and customise email templates to enable effective communication within your organisation.
 
 In this guide  
 > [Set up SMTP server](#set-up-smtp-server)  
@@ -29,7 +29,7 @@ Configure your SMTP server settings to enable the application to send email noti
 
     :::info SMTP requirements
 
-    Your organisation must provide its own SMTP server as described in the [architecture overview](architecture-overview.md). Platform-M does not include a built-in email service.
+    Your organisation must provide its own SMTP server as described in the [architecture overview](architecture-overview.md). Pseudonymisation Portal does not include a built-in email service.
 
     :::
 

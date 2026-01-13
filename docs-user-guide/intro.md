@@ -1,53 +1,51 @@
----
+﻿---
+title: Welcome to the Pseudonymisation Portal
 slug: /
 sidebar_label: "Welcome"
 sidebar_position: 1
-description: "Welcome to the user guide for Platform-M"
+description: "Welcome to the Pseudonymisation Portal user guide - learn how to pseudonymise data for secure collaboration"
 ---
 
 import Link from '@docusaurus/Link';
 import styles from '@site/src/pages/index.module.css';
 
-# Welcome to Platform-M User Guide
+# Welcome to the Pseudonymisation Portal
 
-Welcome to the Platform-M User Guide!
+Welcome to the Pseudonymisation Portal user guide!
 
-**Platform-M** helps you [describe what your platform does]. This guide is designed for [describe your target users] who need to [describe main user tasks].
+The Pseudonymisation Portal helps you protect personally identifiable information (PII) when sharing sensitive data with partners and collaborators. Generate pseudonymisation tokens, control data access, and manage collaboration—all while maintaining privacy and compliance.
 
-:::tip Replace this content
-This is a template page. Replace this content with your actual project information:
-- Update the description of what your platform does
-- Describe who your target users are
-- Outline the main tasks users will accomplish
-- Add links to your specific documentation sections
-:::
+Use the portal to set up projects, define collaboration terms, and generate tokens that your technical teams integrate into your data workflows. Whether you're a hospital sharing patient data with researchers or an organisation collaborating on sensitive datasets, the portal gives you the tools to share data securely.
+
+This guide is for administrators who manage organisations and approve requests, and for users who create projects and generate tokens. You'll learn how to set up your workspace, collaborate with partners, and generate the tokens you need for secure data sharing.
 
 ## What would you like to do?
 
-Follow these guides to get started with Platform-M.
-
 <div className={styles.grid}>
-  <Link to="getting-started" className={styles.card}>
-    <h3>🚀 Getting Started</h3>
-    <p>Learn the basics and set up your first project</p>
+  <Link to="getting-started/log-in" className={styles.card}>
+    <h3>ðŸš€ Get started</h3>
+    <p>Learn the basics and understand user types</p>
   </Link>
-  <Link to="tutorials" className={styles.card}>
-    <h3>📚 Tutorials</h3>
-    <p>Step-by-step guides for common tasks</p>
+  <Link to="key-concepts/what-is-pseudonymisation" className={styles.card}>
+    <h3>ðŸ“– Key concepts</h3>
+    <p>Understand organisations, projects, and tokens</p>
   </Link>
-  <Link to="features" className={styles.card}>
-    <h3>✨ Features</h3>
-    <p>Explore all the capabilities of Platform-M</p>
+  <Link to="for-users/create-organisation" className={styles.card}>
+    <h3>ðŸ‘¤ For users</h3>
+    <p>Create projects and generate tokens</p>
   </Link>
-  <Link to="best-practices" className={styles.card}>
-    <h3>💡 Best Practices</h3>
-    <p>Tips and recommendations for optimal usage</p>
+  <Link to="for-admins/manage-organisations" className={styles.card}>
+    <h3>âš™ï¸ For admins</h3>
+    <p>Manage organisations and approve requests</p>
   </Link>
 </div>
 
+## Available Environments
+
+- **Live**: [Pseudonymisation Front Desk](https://live-url.example.com) - Production environment
+- **Staging**: [Pseudonymisation Front Desk](https://staging-url.example.com) - Testing environment
+
 ## Need help?
 
-- Check our [FAQ](#) for answers to common questions
-- Contact support at [support@example.com](mailto:support@example.com)
-- Join our community forum at [forum.example.com](https://forum.example.com)
+Contact support at [support@example.com](mailto:support@example.com) for technical assistance.
 

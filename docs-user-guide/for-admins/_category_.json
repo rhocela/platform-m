@@ -1,0 +1,8 @@
+{
+  "label": "Portal administration",
+  "position": 6,
+  "link": {
+    "type": "generated-index",
+    "description": "Administrative guides for managing organisations, users, and approving pseudonymisation requests."
+  }
+}

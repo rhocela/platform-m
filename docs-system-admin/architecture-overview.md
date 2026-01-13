@@ -4,19 +4,19 @@ sidebar_position: 1
 
 # Architecture overview
 
-Platform-M is an open-source platform that you can deploy in your organisation's infrastructure. This self-hosted deployment model gives you complete control over the application. Before you begin deployment, understand the application architecture so you can prepare your environment.
+Pseudonymisation Portal is an open-source platform that you can deploy in your organisation's infrastructure. This self-hosted deployment model gives you complete control over the application. Before you begin deployment, understand the application architecture so you can prepare your environment.
 
-The **Platform-M application** is a modular platform that integrates several components to enable secure, scalable dataset management. The following figure illustrates the high-level architecture of the system.
+The **Pseudonymisation Portal application** is a modular platform that integrates several components to enable secure, scalable dataset management. The following figure illustrates the high-level architecture of the system.
 
 ```mermaid
 ---
-title: "Architecture overview of Platform-M"
+title: "Architecture overview of Pseudonymisation Portal"
 ---
 
 flowchart LR
     User["User"]
     Browser["Web browser <br/> (Client)"]
-    MetaApp["Platform-M application"]
+    MetaApp["Pseudonymisation Portal application"]
     IAM["Identity and Access Management"]
     SMTP["SMTP server"]
     DB["Centralised database (PostgreSQL)"]
@@ -37,14 +37,14 @@ flowchart LR
 ```
 <br/>
 
-Platform-M integrates with your organisational infrastructure and is designed for flexible deployment. Here's what you need to know before you begin deployment:
+Pseudonymisation Portal integrates with your organisational infrastructure and is designed for flexible deployment. Here's what you need to know before you begin deployment:
 
-- **Core application:** The Platform-M application includes both a frontend (user interface) and backend services, designed to run on your infrastructure. Your users interact with the system through their web browser, which communicates directly with the application.
+- **Core application:** The Pseudonymisation Portal application includes both a frontend (user interface) and backend services, designed to run on your infrastructure. Your users interact with the system through their web browser, which communicates directly with the application.
 
-- **Authentication & access control:** The application relies on an external OpenID Connect **(OIDC)** provider to manage authentication and user permissions. Your organisation must have its own Identity and Access Management **(IAM)** system, which controls access and role assignments within Platform-M.
+- **Authentication & access control:** The application relies on an external OpenID Connect **(OIDC)** provider to manage authentication and user permissions. Your organisation must have its own Identity and Access Management **(IAM)** system, which controls access and role assignments within Pseudonymisation Portal.
 
-- **Centralised database:** Platform-M stores and retrieves all application data using a **PostgreSQL** database. Your organisation must provide its own PostgreSQL instance and grant Platform-M secure access to the database.
+- **Centralised database:** Pseudonymisation Portal stores and retrieves all application data using a **PostgreSQL** database. Your organisation must provide its own PostgreSQL instance and grant Pseudonymisation Portal secure access to the database.
 
-- **Email notifications:** Platform-M includes a notification feature that sends emails to relevant users during key events of the dataset lifecycle. For example, it sends an email when a dataset is submitted for validation, or when it is approved for publication. Your organisation must configure its own **SMTP server** to deliver these notifications.
+- **Email notifications:** Pseudonymisation Portal includes a notification feature that sends emails to relevant users during key events of the dataset lifecycle. For example, it sends an email when a dataset is submitted for validation, or when it is approved for publication. Your organisation must configure its own **SMTP server** to deliver these notifications.
 
-Now that you understand the architecture, you can prepare your environment and [deploy the Platform-M application](deploy-metadata-capture.md).
+Now that you understand the architecture, you can prepare your environment and [deploy the Pseudonymisation Portal application](deploy-platform-m.md).
